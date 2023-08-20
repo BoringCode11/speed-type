@@ -3,10 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Roboto+Slab:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Speed Typer</title>
   </head>
   <body>
-    <script src="./app.js"></script>
+    <header>
+      <h1 class="title">Javascript Speed Typer</h1>
+    </header>
+
+    <main>
+      <header class="main-header">
+        <p class="current-state">Press Start</p>
+        <!-- <p class="start">Press Start</p>
+        <p class="final-score">Final Score: <span class="score">10</span></p>
+        <p class="current-word">dummy-text</p> -->
+      </header>
+
+      <section class="details">
+        <p class="time">Time: <span class="seconds">0</span>s</p>
+        <p class="running-score">Score: <span class="score"></span></p>
+      </section>
+
+      <form class="gameplay">
+        <label class="instruction">Type the word:</label>
+        <input type="text" name="word" id="word" />
+        <button class="start-btn">Start</button>
+      </form>
+    </main>
+    <script src="./app.js" type="module"></script>
   </body>
 </html>

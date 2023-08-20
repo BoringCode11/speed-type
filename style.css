@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #040404;
+  color: #fff;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 450px;
+  margin-inline: auto;
+}
+
+.title {
+  text-align: center;
+  margin-block: 1em;
+}
+
+.main-header {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  min-width: 80%;
+  max-width: 450px;
+  background-color: #343333;
+  margin-inline: auto;
+  text-align: center;
+  padding-block: 0.5em;
+  border-radius: 0.2em;
+  margin-block: 1em;
+}
+
+.final-score,
+.current-word {
+  display: none;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gameplay {
+  margin-block: 1em;
+  text-align: center;
+}
+
+input[type='text'] {
+  font: inherit;
+  font-family: 'Roboto slab', sans-serif;
+  width: 80%;
+  padding: 0.5em 0.3em;
+  margin-block: 0.4em;
+}
+
+.start-btn {
+  font: inherit;
+  font-family: 'Roboto slab';
+  border: none;
+  padding: 0.5em 2em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.7em;
+}
